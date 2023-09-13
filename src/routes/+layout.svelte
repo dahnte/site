@@ -1,7 +1,7 @@
 <div class="container">
     <div class="navbar">
         <nav>
-            <a href="/">Home</a>
+            <a href="/site">Home</a>
             <a href="/blog">Blog</a>
         </nav>
     </div>
