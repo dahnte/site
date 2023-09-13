@@ -8,6 +8,11 @@ const dev = process.argv.includes('dev');
 const config = {
     kit: {
         adapter: adapter(),
+
+        prerender: {
+            handleHttpError: warn
+        },
+
         paths: {
             base: dev ? '' : process.env.BASE_PATH,
         }
