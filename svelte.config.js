@@ -10,7 +10,7 @@ const config = {
         adapter: adapter(),
 
         prerender: {
-            handleHttpError: warn
+            handleHttpError: 'warn'
         },
 
         paths: {
