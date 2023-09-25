@@ -1,7 +1,7 @@
 <div class="container">
     <div class="navbar">
         <nav>
-            <a href="/">Home</a> <!-- when releasing for deployment change to "/site" -->
+            <a href="/site">Home</a> <!-- when releasing for deployment change to "/site" -->
             <a href="/blog">Blog</a>
         </nav>
     </div>
