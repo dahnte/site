@@ -9,6 +9,7 @@ const config = {
     kit: {
         adapter: adapter(),
 
+        // will still build the site if error can be ignored
         prerender: {
             handleHttpError: 'warn'
         },
