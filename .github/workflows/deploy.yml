@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/site'
+          BASE_PATH: 'dahnte.github.io'
         run: |
           npm run build
           touch build/.nojekyll
