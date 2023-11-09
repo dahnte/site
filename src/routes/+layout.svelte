@@ -1,9 +1,9 @@
 <div class="container">
     <div class="navbar">
         <nav>
-            <a href="https://dahnte.github.io/site">Home</a> <!-- when releasing for deployment change to "/site" -->
-            <p>Blog</p>
-            <a href="https://dahnte.github.io/site/liero">Liero</a>
+            <a href="/site">Home</a> <!-- when releasing for deployment change to "/site" -->
+            <a href="/site">Blog</a>
+            <a href="/site/liero">Liero</a>
         </nav>
     </div>
 
