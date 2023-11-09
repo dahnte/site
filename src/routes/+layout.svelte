@@ -1,9 +1,9 @@
 <div class="container">
     <div class="navbar">
         <nav>
-            <a href="/site">Home</a> <!-- when releasing for deployment change to "/site" -->
-            <a href="/site">Blog</a>
-            <a href="/site/liero">Liero</a>
+            <a href="/">Home</a> <!-- when releasing for deployment change to "/site" -->
+            <a href="/">Blog</a>
+            <a href="/liero">Liero</a>
         </nav>
     </div>
 
