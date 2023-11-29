@@ -7,7 +7,7 @@
         <div class="item-desc">
             <h1>El Leñador</h1>
             <p>Progressive web app, SEO optimization, automated backups with Updraft</p>
-            <a href="https://www.ellenadornews.com" class="links">Website</a>
+            <a href="https://www.ellenadornews.com" target="_blank" class="links">Website</a>
         </div>
     </div>
     <div class="item">
@@ -17,7 +17,7 @@
         <div class="item-desc">
             <h1>Nana's Flan</h1>
             <p>SvelteKit framework</p>
-            <a href="https://nanasflan.github.io" class="links">Website</a>
+            <a href="https://nanasflan.github.io" target="_blank" class="links">Website</a>
             |
             <a href="https://github.com/nanasflan/nanasflan.github.io" class="links">Source code</a>
         </div>
@@ -29,7 +29,7 @@
         <div class="item-desc">
             <h1>Diverse Male Scholar Initiative</h1>
             <p>UI layout</p>
-            <a href="https://dmsi.humboldt.edu" class="links">Website</a>
+            <a href="https://dmsi.humboldt.edu" target="_blank" class="links">Website</a>
         </div>
     </div>
     <h1 class="category">programming</h1>
@@ -40,7 +40,7 @@
         <div class="item-desc">
             <h1>Projects written in C</h1>
             <p>POSIX threads, ncurses library</p>
-            <a href="https://github.com/dahnte/cs480" class="links">Source code</a>
+            <a href="https://github.com/dahnte/cs480" target="_blank" class="links">Source code</a>
         </div>
     </div>
 </div>
@@ -78,6 +78,10 @@
         text-decoration: none;
         font-size: 0.7em;
         color: var(--text-highlight-alt);
+    }
+    .links:hover {
+        color:var(--text-highlight);
+        transition: 0.6s;
     }
     .category {
         margin: 1.2em 0 0 0;
