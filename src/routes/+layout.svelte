@@ -1,9 +1,7 @@
-<div class="container">
-    <div class="navbar">
+<div class="grid">
+    <div>
         <nav>
-            <a href="/">Home</a> <!-- when releasing for deployment change to "/site" -->
-            <a href="/">Blog</a>
-            <a href="/liero">Liero</a>
+            <a href="/showcase">showcase</a>
         </nav>
     </div>
 
@@ -12,41 +10,37 @@
     </div>
 </div>
 
-<footer>
-    <p>Copyright © 2023 dahnte. <em>Is this necessary?</em></p>
-</footer>
 
 <style>
-    .container {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-
-    .navbar {
-        margin-right: 1em;
-    }
-
-    .navbar a {
-        display: block;
-        text-decoration: none;
-        color: #000000;
+    .grid {
+        display: grid;
+        grid-template-columns: 20vw 80vw;
         font-size: 1.5em;
-        padding: 0.15em 0.15em 0.15em 0.8em;
+        color: var(--text-dark);
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
         text-align: right;
+        margin: 1em;
     }
-
-    .navbar a:hover {
-        background-color: #e0e0e0;
-        transition: background-color .3s;
+    nav a {
+        text-decoration: none;
+        color: var(--text-dark);
     }
-
+    nav a:hover {
+        color: var(--text-highlight);
+        transition: 0.6s;
+    }
     .content {
-        font-size: 1.4em;
+        margin: 1em;
     }
-
-    footer {
-        display: block;
-        text-align: center;
+    @media (max-width: 1024px) {
+        .grid {
+            grid-template-columns: auto;
+        }
+        nav {
+            text-align: center;
+        }
     }
 </style>
