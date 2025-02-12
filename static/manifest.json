@@ -1,0 +1,16 @@
+{
+  "name": "GEO TEST",
+  "short_name": "GeoTest",
+  "description": "PWA for Geo Test.",
+  "icons": [
+    {
+      "src": "image.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#B12A34",
+  "background_color": "#B12A34"
+}
